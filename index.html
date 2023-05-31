@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pastel Maluco </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Prompt&family=Raleway:wght@200&family=Smokum&display=swap" rel="stylesheet">
+
+</head>
+<style>
+* {
+	margin:0;
+	font-family:'Brushot' , sans-serif;
+	color: black;
+
+}
+
+
+	body {
+		background-color:#009b3a; <!--- og color:#3ef186 --->
+		
+		padding:10px;
+		}
+
+
+
+p{
+
+	text-align:center;
+	border: solid 10px black;
+	padding: 35px;
+	margin: 2px;
+		
+	border-style: double;
+	border-width: 15px;
+	border-bottom-color: #fedf01;
+	border-left-color:#fedf01;
+	border-top-color:#fedf01;
+	border-right-color:#fedf01;
+	border-radius: 100px;
+	box-shadow: 10px 10px 20px black;
+	border-bottom-width:10;
+	border-left-width:20;
+	border-top-width:10;
+	border-right-width:20
+	size:px;
+}
+
+h1{
+	font-size:50px;
+
+
+
+}
+
+
+
+
+h2{
+	font-family:Brushot , sans-serif
+	<!--letter-spacing:2px;-->
+	background-color:#07488F;
+	color:FFD60A;
+	text-align:center;
+	font-size: 30pt;
+	font-weight: 1000;
+	font-style:normal;
+	text-align:center;
+	justify-content:center;
+	display:flex;
+	
+}
+
+
+
+
+h3{
+	text-align:center;
+	font-size:25px;
+
+
+
+
+}
+
+nav {
+		width:100%;
+		background-color:#FFD700;
+		letter-spacing:5px;
+
+	}
+	
+	
+	nav ul {
+		text-align:center;
+	
+	}
+
+
+	nav ul li{
+		list-style:none;
+		display:inline-block;
+		
+	
+		}
+	
+	
+	
+	
+	nav ul li a{
+		display:block;
+		text-decoration:none;
+		text-transform:uppercase;
+		color:ffffff;
+		font-size:20;
+		letter-spacing:2;
+		font-family:'Brushot',sans-serif;
+		font-weight:600;
+		padding:25;
+		
+	
+		
+	}
+	
+	
+	
+	nav ul li a:hover{
+		background-color:#012877;  <!--#211b4385; --><!---#3ef186; #009b3a;-->   
+		transition:all ease 1.5s;
+		color:white;
+		padding-right:2px;
+		padding-left:6px;
+
+		
+		
+		}
+		
+		
+		
+	
+		
+		
+	
+	
+	
+	form{
+		align-items: center;
+		justify-content: center;
+		text-align:left;
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	ul{
+		align-items: center;
+		justify-content: center;
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	ul li{
+		align-items: center;
+		justify-content: center;
+	
+	
+	
+	}
+	
+	
+	img{
+		border: groove 20px #fedf01;
+		border-radius:69px;
+		border-width:10px;
+	
+	
+	
+	
+	}
+		
+		
+		
+	.findus{
+		text-align:center;
+	
+	
+	}
+		
+	
+		
+	
+	.ourmenu{
+		position:relative;
+		padding:100px;
+		
+	
+	
+	
+	
+	}
+	
+	.review{
+		align-items: center;
+		justify-content: center;
+		text-align:center;
+	
+	
+	}
+	
+	
+	
+	.menu-item1{
+		<!--align-items: center;
+		justify-content: center;-->
+		position:absolute;
+		color:white;
+		left:10%;
+		text-align:left;
+	
+	
+	}
+	
+	
+	
+	
+	.menu-item2{
+		<!--align-items: center;
+		justify-content: center;-->
+		position:absolute;
+		color:white;
+		align-items: center;
+		left:39%;
+		text-align:center;
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	.menu-item3{
+		<!--align-items: center;
+		justify-content: center;-->
+		position:absolute;
+		color:white;
+		right:5%;
+		text-align:center;
+	
+	
+	
+	}
+	
+	
+	
+	.menu{
+		position:relative;
+		
+		
+		
+	
+	
+	}
+	
+
+
+	 .orderZone{
+		
+		position: absolute;
+		top: 20px;
+		width: 320px;
+		text-align: left;
+		left:0px;
+		padding:10px;
+		
+
+	}
+	
+	
+	.order2{
+		position: absolute;
+		top: 100px;
+		width: 320px;
+		text-align: left;
+		left:0px;
+		padding:10px;
+	
+	
+	}
+	
+	
+	
+	.review{
+		position: absolute;
+		top:680px;
+		width: 320px;
+		text-align: center;
+		right:0px;
+	
+	} 
+	
+
+
+	
+
+	.req{
+		align-items:center;
+		text-align:center;
+		justify-content:center;
+	
+	
+	}
+	
+	
+	
+	.Beeftext{
+		position: absolute;
+		bottom: 35px;
+		width: 320px;
+		text-align: center;
+		left:13%;
+		font-size:20px;
+	
+	}
+	
+	
+	
+	
+	.chickentext{
+		position: absolute;
+		bottom: 35px;
+		width: 320px;
+		text-align: center;
+		left:39%;
+		font-size:20px;
+	
+	
+	}
+
+
+
+
+	.Hearttext{
+		position: absolute;
+		bottom: 35px;
+		width: 320px;
+		text-align: center;
+		right:10%;
+		font-size:20px;
+	
+	
+	
+	
+	}
+	
+	
+	.abt{
+		justify-content:center;
+		text-align:center;
+		width:100%;	
+	
+	}
+
+
+
+
+
+	
+	
+</style>
+
+
+
+
+
+
+<body>
+	<header>
+		
+		<nav>
+			<ul>
+				<li><a href="#about-us">About Us</a></li> &nbsp; &nbsp; 
+				<li><a href="#menu">Menu</a></li> &nbsp; &nbsp; 
+				<li><a href="#locations">Locations</a></li>
+			</ul>
+		</nav>
+			<!---<h1 style="text-align:center;">Pastel Maluco</h1>--> <h1 style="text-align:center; text-decoration:none; border-radius:0px"><img src="PastelMalucoLogo.png" alt="Logo" style ="height:300px; width:900px; align-items:center; border:none;"> </h1> 
+			<img src="BrazilFlag.jpg" alt="Logo" style ="height:300px; width:100%; align-items:center; border:none; z-index:-1; position:absolute; top:11px;">
+			
+			<div class ="findus">
+			<span style="text-align:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white;">The best pastels in town!
+			<a href="#locations" class="cta-button" style="color:white;">Find Us</a></span>
+		</div>
+		<br>
+	</header>
+	
+	<main>
+		<section id="about-us">
+		<div class="abt">
+			<h2 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:25%; position: relative; left: 37.5%; ">About Us</h2> </div>
+			
+			
+			<p style="font-size:18px">We are a family-owned food truck business that specializes in traditional Brazilian pastels. Our pastels are made with the freshest ingredients and authentic Brazilian flavors. We have been serving our community for over 10 years and have a loyal customer base that keeps coming back for more.</p>
+			<br>
+			<h2 style= "text-align:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:25%; position: relative; left: 37.5%; ">Our Mission</h2>
+			<p style="font-size:18px">Our mission is to provide our customers with a unique and delicious experience that transports them to Brazil with every bite. We strive to maintain the highest standards of quality, freshness, and authenticity in everything we do.</p>
+		</section>
+		
+		<section id="menu">
+		
+
+		
+		<br>
+			<h2 style="padding-bottom:50px; text-align:center; border-style:solid ; border-width:2px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:25%; position: relative; left: 37.5%;">Our Menu</h2> <br><br>
+		<div class ="ourmenu">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="menu-item1" style="padding:10px;">
+				<br>
+				<br>
+				<div class="Beeftext">
+				<h3 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:280px; position: relative; left: 5%; ">Beef and Cheese Pastel</h3>
+				<center><img src="b&c.jfif" alt="Pastel 1" style="height:100px; width:100px;"></center>
+				
+				<p>A savory pastel filled with ground beef, mozzarella cheese, and onions. <br> Price:$3 .50</p>
+				<!--<span class="price">$3.50</span>-->
+			</div></div>
+			
+			
+			
+			<div class="menu-item2"  >
+			<br>
+			<br>
+			<div class="chickentext">
+				<h3 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:310px;  position: relative; right: 2%; ">Chicken and Catupiry Pastel</h3>
+				<center><img src="c&c.jpeg" alt="Pastel 2" style ="height:100px; width:100px;"> </center>
+				
+				<p>A delicious pastel filled with shredded chicken, Brazilian cream cheese (Catupiry), and green onions.<br> Price:$3 .50</p>
+				<!--<span class="price">$3.50</span>-->
+				
+	
+			</div></div>
+			
+			
+			
+			<div class="menu-item3"  >
+				<br>
+				<br>
+				<div class="Hearttext">
+				<h3 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#012877; padding:5px; border-radius:20px; background-color:#012877; color:white; width:310px;  position: relative; right: 2%; ">Heart of Palm Pastel</h3>
+				<center><img src="h&p.jfif" alt="Pastel 3" style ="width:100px; height:100px;" ></center>
+				
+				<p>A vegetarian pastel filled with hearts of palm, cream cheese, and spices. <br> Price:$4 .00</p>
+				<!--<span class="price">$3.00</span>-->
+				
+			</div>
+			</div>
+			</div>
+			
+			
+			<form action="https://formsubmit.co/KarlBot157@proton.me" method="POST">
+	<br>
+	<br>
+	<br>
+	<div class="menu">
+	<div class="orderZone">
+	
+	
+			<h3 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#fedf01; padding:5px; border-radius:20px; background-color:#012877; color:white; width:310px;  position: relative; right: 2%; "> ORDER HERE: </h3>
+	
+	Name:<br>
+	<input type="text" name="Name">
+	
+	<div class='order2'>
+	I would like to order a: <br>
+	<div class = "orderZone">
+	<input type="checkbox" name="Pastel" value="BeefandCheese">
+	Beef and Cheese Pastel ($3.50) <br>
+	<input type="checkbox" name="Pastel" value="ChickenandCatupiry">
+	Chicken and Catupiry Pastel ($3.50) <br>
+	<input type="checkbox" name="Pastel" value="HeartofPalm">
+	Heart of Palm Pastel ($4.00)  <br>
+	
+	And my drink is: <br>
+	<input type="checkbox" name="Drink" value="water">  Water ($1.00)  <br>
+	<input type="checkbox" name="Drink" value="CaudodeCana"> Caldo de Cana ($2.50)  <br>
+	<input type="checkbox" name="Drink" value="coke"> Coke ($1.00) <br> 
+	<input type="checkbox" name="blank" value="none"> None  <br>
+	<input type="submit" value="Submit">  <br>
+	
+	<img src="cdc&p.jpg" alt="Pastel 1" style="height:200px; width:200px; padding:0px;">
+	</div></div></div>
+
+	
+	
+	
+	
+</form>
+</section>
+
+<div class='review'>
+<form>
+<div class ="review">
+<br>
+<br>
+<br>
+<br>
+
+
+<h3 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#fedf01; padding:5px; border-radius:20px; background-color:#012877; color:white; width:310px;  position: relative; right: 2%; "> Leave a review! </h3>
+
+review:<br>
+	<input type="text" name="Name" style="height:25px;"> 
+	<br>
+	<input type="submit" value="Submit">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	
+	<img src="pastel2.jpg" alt="Pastel 2" style ="height:200px; width:200px; ">
+	
+	
+</form>		
+</div>
+		</section>
+		</div></div>
+		
+		
+		
+		<br>
+		<br>
+		<br>
+		
+		
+		<section id="locations">
+			<h2 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#fedf01; padding:5px; border-radius:20px; background-color:#012877; color:white; width:310px;  position: relative; left:39% ">&nbsp;&nbsp;  Find Us:</h2>
+			
+
+
+
+		<ul style ="text-align:center; list-style:none;"> 
+			<li> May 1st - May 10th </li>
+				Tampa Bay, Florida 
+				
+				
+			<li> May 20th - May 30th </li>
+				Tallahassee, Florida 
+		
+				
+			<li> April 10th - April 20th </li>
+				 Atlanta, Georgia 
+		
+		</ul>
+		
+		
+		
+		<section id="requestUs" style='text-align:center;'>
+		<br>
+		<br>
+		
+			<h2 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#fedf01; padding:5px; border-radius:20px; background-color:#012877; color:white; width:390px;  position: relative; left:35% "> Request Our Truck! </h2>
+			<div class ='req'>
+				<span >*Must be within the United States*</span> <br>
+				<span> Location, mm/dd/yyyy </span> <br>
+				<span> EX: Fort Lauderdale, FL, 03/27/2023 <span> <br>
+				
+				<input type="text" name="Name">
+				<input type="submit" value="Submit">
+				
+
+
+			</div>
+
+				
+			</section>
+			<br>
+			<br>
+			
+			
+			
+			
+		<section id="Contact Us" style="text-align:center;">
+			<h2 style= "text-align:center; justify-content:center; border-style:solid ; border-width: 5px; border-color:#fedf01; padding:5px; border-radius:20px; background-color:#012877; color:white; width:300px;  position: relative; left:38% "> Contact Us </h2>
+			<span> PastelMaluco@gmail.com </span> <br>
+			<span> (786) 447-9745 </span> <br>
+		</section>
+		<br>
+		
